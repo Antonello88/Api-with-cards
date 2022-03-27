@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+
+}
+
+
+img {
+    width: 120px;
+    height: 16vh;
+    object-fit: contain;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
+    height: 50vh;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 5px;
+    align-content: center;
+    box-shadow: 1px 1px 0 1px #f9f9fb, -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+    28px 28px 28px 0 rgba(34, 33, 81, 0.25);
+    background-color: white;
+
+}
+
+
+
+.card.show-off {
+    visibility: hidden;
+    
+}
+
